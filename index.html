@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="images/copy.png" type="image/x-icon">
+    <title>Random Password Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Сгенерировать <br><span>рандомный пароль</span></h1>
+        <div class="display">
+            <input type="text" id="password" placeholder="Ваш пароль">
+            <img src="images/copy.png" alt="copy-img" onclick="copyPass()">
+        </div>
+        <button onclick="createPassword()"><img src="images/generate.png" alt="generate-button">Сгенерировать пароль</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
